@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0px;
+}
+#herosection{
+  margin: 0 0 0 0!important;
+  padding: 0 0 0 0!important;
+  background: url(./img/bg_hero.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%!important;
+  height: 100vh;
+  object-fit: cover;
+}
+#womanhaha{
+  width: 300px;
+  pointer-events: unset;
+}
+#urunler{
+  background-color: #fafafa;
+  box-shadow: 2px 2px 1px 2px #888888;
+}
+#urunlist{
+
+  height: 200px;
+}
+#urunlist1{
+  font-size: 14px;
+  color: #66666698;
+text-align: center;
+}
+#urunlist2{
+  color: rgba(7, 7, 7, 0.623);
+  text-align: center;
+}
+#urunlist3{
+  font-size: 18px;
+  text-align: center;
+  color: rgb(83, 60, 60);
+}
+#urunlist4{
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary text-primary;
+  }
+}
